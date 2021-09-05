@@ -65,15 +65,11 @@ so you create collections and documents inside the collections
 
 ##### Comparison 
 
-+-------------------+------------------------------+
-| SQL Database      | Document Oriented Database   |
-+===================+==============================+
-| Relation or Table | Collection                   |
-+-------------------+------------------------------+
-| Row               | Document                     |
-+-------------------+------------------------------+
-| Column            | Field                        |
-+-------------------+------------------------------+
+| SQL Database      | Document Oriented Database |
+|-------------------|----------------------------|
+| Relation or Table | Collection                 |
+| Row               | Document                   |
+| Column            | Field                      |
 
 
 ##### Collection
