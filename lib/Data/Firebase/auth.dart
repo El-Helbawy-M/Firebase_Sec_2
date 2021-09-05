@@ -1,13 +1,17 @@
 import 'package:firebase_auth/firebase_auth.dart';
 
 class Auther {
+  //==================== Variables
   FirebaseAuth _auther = FirebaseAuth.instance;
   final String email, password;
+
+  //==================== Constructor
   Auther(this.email, this.password);
+
+  //==================== Functions
   Future<bool> register() async {
     try {
-      await this._auther.createUserWithEmailAndPassword(
-          email: this.email, password: this.password);
+      await this._auther.createUserWithEmailAndPassword(email: this.email, password: this.password);
       return true;
     } on FirebaseAuthException catch (e) {
       if (e.code == 'weak-password') {
@@ -26,8 +30,7 @@ class Auther {
 
   Future<bool> signIn() async {
     try {
-      await this._auther.signInWithEmailAndPassword(
-          email: this.email, password: this.password);
+      await this._auther.signInWithEmailAndPassword(email: this.email, password: this.password);
       return true;
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {

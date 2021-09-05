@@ -1,10 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_sec_2/Data/Firebase/auth.dart';
-import 'package:firebase_sec_2/Data/Firebase/database.dart';
-import 'package:firebase_sec_2/Data/Handlers/animalHandler.dart';
 import 'package:flutter/material.dart';
-
-import 'Models/Animal.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -37,12 +32,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -65,8 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
-          AnimalHandler handler = AnimalHandler(Animal('Haski', 'Dog'));
-          await handler.deleteAnimal();
+          //try the code here ^-^
         },
         tooltip: 'Increment',
         child: Icon(Icons.add),
