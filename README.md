@@ -1,16 +1,32 @@
-# firebase_sec_2
+# **Firebase_sec_2**
+### 1.Getting start with the features of Firebase
+Firebase introduce many features like :
+* Authentication
+* Database {`Firestore Database` , `Realtime Database`}
+* Storage
+* Hosting
+* AI services
+* Functions
 
-A new Flutter project.
+In Flutter mostly we use two features {`Authentication` , `Database`> `Firestore Database`}
 
-## Getting Started
+#### **Links** :
+* Firebase > <a href="https://firebase.google.com/" target="_blank">The Link</a>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### 2.Authentication
+This feature is used for providing `Sign In Screen` & `Sign Up Screen`,
+this feature provides many sign in methods like :
+* Google
+* Yahoo
+* Facebook
+* Email & Passwords > it means you can sign in with any email and any passwords even if this email isn't real
+* etc...
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You can with this feature as we mentioned before make the use sign in or register when you use the package of the feature in Flutter you will find that there are some exceptions come with it called `FirebaseAuth Exceptions` it will help you to handle some problems like {`The user registered with existed emai` , `The user signed in with email that isn't exist` , `Wrong Password` , `Short Password` , `Etc...`}
+
+#### **Links** :
+* FirebaseAuth package: <a href="https://pub.dev/packages/firebase_auth" target="_blank">The Link</a>
+* Documention : <a href="https://firebase.flutter.dev/docs/overview" target="_blank">The Link</a>
