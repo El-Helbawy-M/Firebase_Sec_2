@@ -20,7 +20,7 @@ In Flutter mostly we use two features {`Authentication` , `Database`> `Firestore
 ### 2.Authentication
 
 
-![Authentication][https://achievement-images.teamtreehouse.com/badges_Ruby_UserAuthentication_Stage1.png]
+![Authentication](https://achievement-images.teamtreehouse.com/badges_Ruby_UserAuthentication_Stage1.png)
 
 
 This feature is used for providing `Sign In Screen` & `Sign Up Screen`,
