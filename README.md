@@ -64,6 +64,7 @@ this database is a `Document Oriented Database` not `SQL Database`,
 so you create collections and documents inside the collections
 
 ##### Comparison 
+
 +-------------------+------------------------------+
 | SQL Database      | Document Oriented Database   |
 +===================+==============================+
